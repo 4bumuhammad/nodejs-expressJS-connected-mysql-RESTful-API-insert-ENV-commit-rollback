@@ -118,7 +118,7 @@ lanjut coba jalankan kembali aplikasi
 eksekusi dengan CURL:
 - contoh 1
 
-    curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8000001 }' http://localhost:3000/api/insert-data
+        curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8000001 }' http://localhost:3000/api/insert-data
 
 output :
 
@@ -127,7 +127,7 @@ output :
 
 - contoh 2 ( skenario gagal insert pada tabel ke-2 )
 
-    curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8900002 }' http://localhost:3000/api/insert-data
+        curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8900002 }' http://localhost:3000/api/insert-data
 
 output :
 
