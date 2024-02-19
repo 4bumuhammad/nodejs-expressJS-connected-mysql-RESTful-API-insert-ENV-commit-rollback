@@ -30,6 +30,21 @@ periksa file json dan buat file js secara manual serta isinya.
 
 - app.js
 
+- .env
+
+---
+
+    ❯ cat .env
+
+        DB_HOST=127.0.0.1
+        DB_USER=root
+        DB_PASSWORD=password
+        DB_DATABASE=ujimysqlkudb
+        DB_PORT=3309
+        DB_INSECUREAUTH=true
+        
+---
+
 
 
 jalankan (command) :
