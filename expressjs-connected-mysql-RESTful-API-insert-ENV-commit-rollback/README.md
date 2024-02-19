@@ -120,18 +120,18 @@ eksekusi dengan CURL:
 
         curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8000001 }' http://localhost:3000/api/insert-data
 
-output :
+    output :
 
-    {"message":"Transaksi berhasil."}
+        {"message":"Transaksi berhasil."}
 
 
 - contoh 2 ( skenario gagal insert pada tabel ke-2 )
 
         curl -X POST -H "Content-Type: application/json" -d '{ "intbiasa": 2147100001, "intpositive": 4294900001, "bigintbiasa": 2147500001, "mediumintbiasa": 8900002 }' http://localhost:3000/api/insert-data
 
-output :
+    output :
 
-    {"error":"Terjadi kesalahan saat menambahkan data pada tabel 2."}
+        {"error":"Terjadi kesalahan saat menambahkan data pada tabel 2."}
 
 
 
